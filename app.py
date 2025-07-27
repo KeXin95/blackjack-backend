@@ -9,8 +9,23 @@ import pandas as pd
 app = Flask(__name__)
 CORS(app)
 
-RESULTS_DIR = "../results"
-PROCESSED_DIR = "processed_data"
+# Configure for Railway deployment
+port = int(os.environ.get('PORT', 5001))
+
+# Use absolute paths for Railway deployment
+RESULTS_DIR = os.path.join(os.path.dirname(__file__), "..", "results")
+PROCESSED_DIR = os.path.join(os.path.dirname(__file__), "processed_data")
+
+@app.route('/')
+def home():
+    """Simple health check endpoint"""
+    return jsonify({
+        "status": "ok",
+        "message": "Blackjack API is running",
+        "port": port,
+        "results_dir": RESULTS_DIR,
+        "processed_dir": PROCESSED_DIR
+    })
 
 def load_and_process_results(filename):
     """Load pre-processed results for fast API response"""
@@ -111,44 +126,64 @@ def get_strategy(strategy_key):
 @app.route('/api/comparison', methods=['GET'])
 def get_comparison_data():
     """Get comparison data for all strategies"""
-    print("HELLO")
-    strategies = {}
-    
-    result_files = [f for f in os.listdir(RESULTS_DIR) if f.endswith('_results.json')]
-    
-    for filename in result_files:
-        print(filename)
-        strategy_key = filename.replace("_results.json", "").replace("_", "-")
-        data = load_and_process_results(filename)
+    try:
+        print(f"RESULTS_DIR: {RESULTS_DIR}")
+        print(f"PROCESSED_DIR: {PROCESSED_DIR}")
         
-        if data is None:
-            continue
+        # Check if directories exist
+        if not os.path.exists(RESULTS_DIR):
+            print(f"ERROR: RESULTS_DIR does not exist: {RESULTS_DIR}")
+            return jsonify({"error": "Results directory not found"}), 500
             
-        info = get_strategy_info(filename)
-        strategies[strategy_key] = {
-            **data,
-            "name": info["name"],
-            "description": info["description"]
-        }
-    
-    # Create comparison data - filter to only include fixed threshold 16
-    comparison_data = []
-    for strategy_key, strategy in strategies.items():
-        # Only include fixed threshold 16, skip other fixed thresholds
-        if strategy_key.startswith("fixed-threshold-") and strategy_key != "fixed-threshold-16":
-            continue
+        if not os.path.exists(PROCESSED_DIR):
+            print(f"ERROR: PROCESSED_DIR does not exist: {PROCESSED_DIR}")
+            return jsonify({"error": "Processed data directory not found"}), 500
+        
+        strategies = {}
+        result_files = [f for f in os.listdir(RESULTS_DIR) if f.endswith('_results.json')]
+        print(f"Found {len(result_files)} result files: {result_files}")
+        
+        for filename in result_files:
+            print(f"Processing: {filename}")
+            strategy_key = filename.replace("_results.json", "").replace("_", "-")
+            data = load_and_process_results(filename)
             
-        comparison_data.append({
-            "name": strategy["name"],
-            "Avg Net Winnings": strategy["avgNetPerHand"],
-            "ROI (%)": strategy["roi"],
-            "Volatility (Std Dev)": strategy["stdDeviation"],
+            if data is None:
+                print(f"Warning: No data for {filename}")
+                continue
+                
+            info = get_strategy_info(filename)
+            strategies[strategy_key] = {
+                **data,
+                "name": info["name"],
+                "description": info["description"]
+            }
+        
+        # Create comparison data - filter to only include fixed threshold 16
+        comparison_data = []
+        for strategy_key, strategy in strategies.items():
+            # Only include fixed threshold 16, skip other fixed thresholds
+            if strategy_key.startswith("fixed-threshold-") and strategy_key != "fixed-threshold-16":
+                continue
+                
+            comparison_data.append({
+                "name": strategy["name"],
+                "Avg Net Winnings": strategy["avgNetPerHand"],
+                "ROI (%)": strategy["roi"],
+                "Volatility (Std Dev)": strategy["stdDeviation"],
+            })
+        
+        print(f"Returning {len(strategies)} strategies and {len(comparison_data)} comparison items")
+        return jsonify({
+            "strategies": strategies,
+            "comparisonData": comparison_data
         })
-    print(comparison_data)
-    return jsonify({
-        "strategies": strategies,
-        "comparisonData": comparison_data
-    })
+        
+    except Exception as e:
+        print(f"ERROR in get_comparison_data: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({"error": str(e)}), 500
 
 @app.route('/api/quick-comparison', methods=['GET'])
 def get_quick_comparison():
@@ -182,4 +217,5 @@ def get_quick_comparison():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001) 
+    port = int(os.environ.get('PORT', 5001))
+    app.run(host='0.0.0.0', port=port, debug=False) 
