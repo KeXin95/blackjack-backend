@@ -1,0 +1,2028 @@
+{
+  "simulations": 1000000,
+  "totalWinnings": -102350.0,
+  "winRate": 42.9739,
+  "avgNetPerHand": -0.10235,
+  "stdDeviation": 11.219805010671976,
+  "roi": -1.0234999999999999,
+  "winningsDistribution": [
+    {
+      "name": "Big Loss (<-$20)",
+      "value": 38132
+    },
+    {
+      "name": "Small Loss (-$20 to $0)",
+      "value": 532129
+    },
+    {
+      "name": "Small Win ($0 to $20)",
+      "value": 427733
+    },
+    {
+      "name": "Big Win (>$20)",
+      "value": 53205
+    }
+  ],
+  "bankrollHistory": [
+    {
+      "hand": 0,
+      "bankroll": -10.0
+    },
+    {
+      "hand": 2004,
+      "bankroll": 425.0
+    },
+    {
+      "hand": 4008,
+      "bankroll": 1005.0
+    },
+    {
+      "hand": 6012,
+      "bankroll": 2240.0
+    },
+    {
+      "hand": 8016,
+      "bankroll": 2215.0
+    },
+    {
+      "hand": 10020,
+      "bankroll": 2040.0
+    },
+    {
+      "hand": 12024,
+      "bankroll": 2935.0
+    },
+    {
+      "hand": 14028,
+      "bankroll": 2685.0
+    },
+    {
+      "hand": 16032,
+      "bankroll": 2670.0
+    },
+    {
+      "hand": 18036,
+      "bankroll": 2385.0
+    },
+    {
+      "hand": 20040,
+      "bankroll": 2930.0
+    },
+    {
+      "hand": 22044,
+      "bankroll": 2675.0
+    },
+    {
+      "hand": 24048,
+      "bankroll": 2275.0
+    },
+    {
+      "hand": 26052,
+      "bankroll": 1890.0
+    },
+    {
+      "hand": 28056,
+      "bankroll": 1135.0
+    },
+    {
+      "hand": 30060,
+      "bankroll": 1125.0
+    },
+    {
+      "hand": 32064,
+      "bankroll": 1005.0
+    },
+    {
+      "hand": 34068,
+      "bankroll": 970.0
+    },
+    {
+      "hand": 36072,
+      "bankroll": 1315.0
+    },
+    {
+      "hand": 38076,
+      "bankroll": 1020.0
+    },
+    {
+      "hand": 40080,
+      "bankroll": 665.0
+    },
+    {
+      "hand": 42084,
+      "bankroll": -30.0
+    },
+    {
+      "hand": 44088,
+      "bankroll": 410.0
+    },
+    {
+      "hand": 46092,
+      "bankroll": 850.0
+    },
+    {
+      "hand": 48096,
+      "bankroll": 635.0
+    },
+    {
+      "hand": 50100,
+      "bankroll": 370.0
+    },
+    {
+      "hand": 52104,
+      "bankroll": -585.0
+    },
+    {
+      "hand": 54108,
+      "bankroll": -1330.0
+    },
+    {
+      "hand": 56112,
+      "bankroll": -1755.0
+    },
+    {
+      "hand": 58116,
+      "bankroll": -2255.0
+    },
+    {
+      "hand": 60120,
+      "bankroll": -2155.0
+    },
+    {
+      "hand": 62124,
+      "bankroll": -2825.0
+    },
+    {
+      "hand": 64128,
+      "bankroll": -2785.0
+    },
+    {
+      "hand": 66132,
+      "bankroll": -2920.0
+    },
+    {
+      "hand": 68136,
+      "bankroll": -2765.0
+    },
+    {
+      "hand": 70140,
+      "bankroll": -3205.0
+    },
+    {
+      "hand": 72144,
+      "bankroll": -3120.0
+    },
+    {
+      "hand": 74148,
+      "bankroll": -2980.0
+    },
+    {
+      "hand": 76152,
+      "bankroll": -4070.0
+    },
+    {
+      "hand": 78156,
+      "bankroll": -4875.0
+    },
+    {
+      "hand": 80160,
+      "bankroll": -5735.0
+    },
+    {
+      "hand": 82164,
+      "bankroll": -5165.0
+    },
+    {
+      "hand": 84168,
+      "bankroll": -5365.0
+    },
+    {
+      "hand": 86172,
+      "bankroll": -5645.0
+    },
+    {
+      "hand": 88176,
+      "bankroll": -6125.0
+    },
+    {
+      "hand": 90180,
+      "bankroll": -6400.0
+    },
+    {
+      "hand": 92184,
+      "bankroll": -6725.0
+    },
+    {
+      "hand": 94188,
+      "bankroll": -6435.0
+    },
+    {
+      "hand": 96192,
+      "bankroll": -6530.0
+    },
+    {
+      "hand": 98196,
+      "bankroll": -6280.0
+    },
+    {
+      "hand": 100200,
+      "bankroll": -6725.0
+    },
+    {
+      "hand": 102204,
+      "bankroll": -6580.0
+    },
+    {
+      "hand": 104208,
+      "bankroll": -7500.0
+    },
+    {
+      "hand": 106212,
+      "bankroll": -7460.0
+    },
+    {
+      "hand": 108216,
+      "bankroll": -7750.0
+    },
+    {
+      "hand": 110220,
+      "bankroll": -8205.0
+    },
+    {
+      "hand": 112224,
+      "bankroll": -7985.0
+    },
+    {
+      "hand": 114228,
+      "bankroll": -7695.0
+    },
+    {
+      "hand": 116232,
+      "bankroll": -8460.0
+    },
+    {
+      "hand": 118236,
+      "bankroll": -8570.0
+    },
+    {
+      "hand": 120240,
+      "bankroll": -8015.0
+    },
+    {
+      "hand": 122244,
+      "bankroll": -7275.0
+    },
+    {
+      "hand": 124248,
+      "bankroll": -7370.0
+    },
+    {
+      "hand": 126252,
+      "bankroll": -7570.0
+    },
+    {
+      "hand": 128256,
+      "bankroll": -7180.0
+    },
+    {
+      "hand": 130260,
+      "bankroll": -6595.0
+    },
+    {
+      "hand": 132264,
+      "bankroll": -7435.0
+    },
+    {
+      "hand": 134268,
+      "bankroll": -7550.0
+    },
+    {
+      "hand": 136272,
+      "bankroll": -7575.0
+    },
+    {
+      "hand": 138276,
+      "bankroll": -7550.0
+    },
+    {
+      "hand": 140280,
+      "bankroll": -7885.0
+    },
+    {
+      "hand": 142284,
+      "bankroll": -7465.0
+    },
+    {
+      "hand": 144288,
+      "bankroll": -6805.0
+    },
+    {
+      "hand": 146292,
+      "bankroll": -7530.0
+    },
+    {
+      "hand": 148296,
+      "bankroll": -8000.0
+    },
+    {
+      "hand": 150300,
+      "bankroll": -8195.0
+    },
+    {
+      "hand": 152304,
+      "bankroll": -8750.0
+    },
+    {
+      "hand": 154308,
+      "bankroll": -8985.0
+    },
+    {
+      "hand": 156312,
+      "bankroll": -9240.0
+    },
+    {
+      "hand": 158316,
+      "bankroll": -9970.0
+    },
+    {
+      "hand": 160320,
+      "bankroll": -9390.0
+    },
+    {
+      "hand": 162324,
+      "bankroll": -9450.0
+    },
+    {
+      "hand": 164328,
+      "bankroll": -10265.0
+    },
+    {
+      "hand": 166332,
+      "bankroll": -10505.0
+    },
+    {
+      "hand": 168336,
+      "bankroll": -10480.0
+    },
+    {
+      "hand": 170340,
+      "bankroll": -10760.0
+    },
+    {
+      "hand": 172344,
+      "bankroll": -10950.0
+    },
+    {
+      "hand": 174348,
+      "bankroll": -11390.0
+    },
+    {
+      "hand": 176352,
+      "bankroll": -10605.0
+    },
+    {
+      "hand": 178356,
+      "bankroll": -10875.0
+    },
+    {
+      "hand": 180360,
+      "bankroll": -11175.0
+    },
+    {
+      "hand": 182364,
+      "bankroll": -11685.0
+    },
+    {
+      "hand": 184368,
+      "bankroll": -11785.0
+    },
+    {
+      "hand": 186372,
+      "bankroll": -11795.0
+    },
+    {
+      "hand": 188376,
+      "bankroll": -12450.0
+    },
+    {
+      "hand": 190380,
+      "bankroll": -12465.0
+    },
+    {
+      "hand": 192384,
+      "bankroll": -12360.0
+    },
+    {
+      "hand": 194388,
+      "bankroll": -13805.0
+    },
+    {
+      "hand": 196392,
+      "bankroll": -14390.0
+    },
+    {
+      "hand": 198396,
+      "bankroll": -13700.0
+    },
+    {
+      "hand": 200400,
+      "bankroll": -13845.0
+    },
+    {
+      "hand": 202404,
+      "bankroll": -14335.0
+    },
+    {
+      "hand": 204408,
+      "bankroll": -14610.0
+    },
+    {
+      "hand": 206412,
+      "bankroll": -15240.0
+    },
+    {
+      "hand": 208416,
+      "bankroll": -15355.0
+    },
+    {
+      "hand": 210420,
+      "bankroll": -15545.0
+    },
+    {
+      "hand": 212424,
+      "bankroll": -15980.0
+    },
+    {
+      "hand": 214428,
+      "bankroll": -16730.0
+    },
+    {
+      "hand": 216432,
+      "bankroll": -16565.0
+    },
+    {
+      "hand": 218436,
+      "bankroll": -17615.0
+    },
+    {
+      "hand": 220440,
+      "bankroll": -17535.0
+    },
+    {
+      "hand": 222444,
+      "bankroll": -17260.0
+    },
+    {
+      "hand": 224448,
+      "bankroll": -17885.0
+    },
+    {
+      "hand": 226452,
+      "bankroll": -18285.0
+    },
+    {
+      "hand": 228456,
+      "bankroll": -18380.0
+    },
+    {
+      "hand": 230460,
+      "bankroll": -17050.0
+    },
+    {
+      "hand": 232464,
+      "bankroll": -17935.0
+    },
+    {
+      "hand": 234468,
+      "bankroll": -17230.0
+    },
+    {
+      "hand": 236472,
+      "bankroll": -17665.0
+    },
+    {
+      "hand": 238476,
+      "bankroll": -18690.0
+    },
+    {
+      "hand": 240480,
+      "bankroll": -18485.0
+    },
+    {
+      "hand": 242484,
+      "bankroll": -19040.0
+    },
+    {
+      "hand": 244488,
+      "bankroll": -20075.0
+    },
+    {
+      "hand": 246492,
+      "bankroll": -20330.0
+    },
+    {
+      "hand": 248496,
+      "bankroll": -20160.0
+    },
+    {
+      "hand": 250500,
+      "bankroll": -20530.0
+    },
+    {
+      "hand": 252504,
+      "bankroll": -20880.0
+    },
+    {
+      "hand": 254508,
+      "bankroll": -21015.0
+    },
+    {
+      "hand": 256512,
+      "bankroll": -21255.0
+    },
+    {
+      "hand": 258516,
+      "bankroll": -21525.0
+    },
+    {
+      "hand": 260520,
+      "bankroll": -21620.0
+    },
+    {
+      "hand": 262524,
+      "bankroll": -22630.0
+    },
+    {
+      "hand": 264528,
+      "bankroll": -23335.0
+    },
+    {
+      "hand": 266532,
+      "bankroll": -23440.0
+    },
+    {
+      "hand": 268536,
+      "bankroll": -24175.0
+    },
+    {
+      "hand": 270540,
+      "bankroll": -24815.0
+    },
+    {
+      "hand": 272544,
+      "bankroll": -25435.0
+    },
+    {
+      "hand": 274548,
+      "bankroll": -25270.0
+    },
+    {
+      "hand": 276552,
+      "bankroll": -26320.0
+    },
+    {
+      "hand": 278556,
+      "bankroll": -26490.0
+    },
+    {
+      "hand": 280560,
+      "bankroll": -26700.0
+    },
+    {
+      "hand": 282564,
+      "bankroll": -26795.0
+    },
+    {
+      "hand": 284568,
+      "bankroll": -26635.0
+    },
+    {
+      "hand": 286572,
+      "bankroll": -26680.0
+    },
+    {
+      "hand": 288576,
+      "bankroll": -26145.0
+    },
+    {
+      "hand": 290580,
+      "bankroll": -26535.0
+    },
+    {
+      "hand": 292584,
+      "bankroll": -26385.0
+    },
+    {
+      "hand": 294588,
+      "bankroll": -27065.0
+    },
+    {
+      "hand": 296592,
+      "bankroll": -27865.0
+    },
+    {
+      "hand": 298596,
+      "bankroll": -28515.0
+    },
+    {
+      "hand": 300600,
+      "bankroll": -28540.0
+    },
+    {
+      "hand": 302604,
+      "bankroll": -29025.0
+    },
+    {
+      "hand": 304608,
+      "bankroll": -28650.0
+    },
+    {
+      "hand": 306612,
+      "bankroll": -28650.0
+    },
+    {
+      "hand": 308616,
+      "bankroll": -28505.0
+    },
+    {
+      "hand": 310620,
+      "bankroll": -28250.0
+    },
+    {
+      "hand": 312624,
+      "bankroll": -27865.0
+    },
+    {
+      "hand": 314628,
+      "bankroll": -28120.0
+    },
+    {
+      "hand": 316632,
+      "bankroll": -28890.0
+    },
+    {
+      "hand": 318636,
+      "bankroll": -29105.0
+    },
+    {
+      "hand": 320640,
+      "bankroll": -29030.0
+    },
+    {
+      "hand": 322644,
+      "bankroll": -29215.0
+    },
+    {
+      "hand": 324648,
+      "bankroll": -29380.0
+    },
+    {
+      "hand": 326652,
+      "bankroll": -29775.0
+    },
+    {
+      "hand": 328656,
+      "bankroll": -29425.0
+    },
+    {
+      "hand": 330660,
+      "bankroll": -29445.0
+    },
+    {
+      "hand": 332664,
+      "bankroll": -29135.0
+    },
+    {
+      "hand": 334669,
+      "bankroll": -30095.0
+    },
+    {
+      "hand": 336673,
+      "bankroll": -30560.0
+    },
+    {
+      "hand": 338677,
+      "bankroll": -30850.0
+    },
+    {
+      "hand": 340681,
+      "bankroll": -29585.0
+    },
+    {
+      "hand": 342685,
+      "bankroll": -28985.0
+    },
+    {
+      "hand": 344689,
+      "bankroll": -28840.0
+    },
+    {
+      "hand": 346693,
+      "bankroll": -29360.0
+    },
+    {
+      "hand": 348697,
+      "bankroll": -29225.0
+    },
+    {
+      "hand": 350701,
+      "bankroll": -29045.0
+    },
+    {
+      "hand": 352705,
+      "bankroll": -29420.0
+    },
+    {
+      "hand": 354709,
+      "bankroll": -30070.0
+    },
+    {
+      "hand": 356713,
+      "bankroll": -30725.0
+    },
+    {
+      "hand": 358717,
+      "bankroll": -31340.0
+    },
+    {
+      "hand": 360721,
+      "bankroll": -32175.0
+    },
+    {
+      "hand": 362725,
+      "bankroll": -32190.0
+    },
+    {
+      "hand": 364729,
+      "bankroll": -31820.0
+    },
+    {
+      "hand": 366733,
+      "bankroll": -32315.0
+    },
+    {
+      "hand": 368737,
+      "bankroll": -31965.0
+    },
+    {
+      "hand": 370741,
+      "bankroll": -31730.0
+    },
+    {
+      "hand": 372745,
+      "bankroll": -31655.0
+    },
+    {
+      "hand": 374749,
+      "bankroll": -31365.0
+    },
+    {
+      "hand": 376753,
+      "bankroll": -32215.0
+    },
+    {
+      "hand": 378757,
+      "bankroll": -31650.0
+    },
+    {
+      "hand": 380761,
+      "bankroll": -31365.0
+    },
+    {
+      "hand": 382765,
+      "bankroll": -30520.0
+    },
+    {
+      "hand": 384769,
+      "bankroll": -30670.0
+    },
+    {
+      "hand": 386773,
+      "bankroll": -30360.0
+    },
+    {
+      "hand": 388777,
+      "bankroll": -30260.0
+    },
+    {
+      "hand": 390781,
+      "bankroll": -30150.0
+    },
+    {
+      "hand": 392785,
+      "bankroll": -29725.0
+    },
+    {
+      "hand": 394789,
+      "bankroll": -29875.0
+    },
+    {
+      "hand": 396793,
+      "bankroll": -30065.0
+    },
+    {
+      "hand": 398797,
+      "bankroll": -30445.0
+    },
+    {
+      "hand": 400801,
+      "bankroll": -30295.0
+    },
+    {
+      "hand": 402805,
+      "bankroll": -30975.0
+    },
+    {
+      "hand": 404809,
+      "bankroll": -31300.0
+    },
+    {
+      "hand": 406813,
+      "bankroll": -31595.0
+    },
+    {
+      "hand": 408817,
+      "bankroll": -31885.0
+    },
+    {
+      "hand": 410821,
+      "bankroll": -31760.0
+    },
+    {
+      "hand": 412825,
+      "bankroll": -32420.0
+    },
+    {
+      "hand": 414829,
+      "bankroll": -31880.0
+    },
+    {
+      "hand": 416833,
+      "bankroll": -31715.0
+    },
+    {
+      "hand": 418837,
+      "bankroll": -31495.0
+    },
+    {
+      "hand": 420841,
+      "bankroll": -31365.0
+    },
+    {
+      "hand": 422845,
+      "bankroll": -31075.0
+    },
+    {
+      "hand": 424849,
+      "bankroll": -31455.0
+    },
+    {
+      "hand": 426853,
+      "bankroll": -31270.0
+    },
+    {
+      "hand": 428857,
+      "bankroll": -32180.0
+    },
+    {
+      "hand": 430861,
+      "bankroll": -32555.0
+    },
+    {
+      "hand": 432865,
+      "bankroll": -31685.0
+    },
+    {
+      "hand": 434869,
+      "bankroll": -30845.0
+    },
+    {
+      "hand": 436873,
+      "bankroll": -31870.0
+    },
+    {
+      "hand": 438877,
+      "bankroll": -31825.0
+    },
+    {
+      "hand": 440881,
+      "bankroll": -32160.0
+    },
+    {
+      "hand": 442885,
+      "bankroll": -31875.0
+    },
+    {
+      "hand": 444889,
+      "bankroll": -32065.0
+    },
+    {
+      "hand": 446893,
+      "bankroll": -32805.0
+    },
+    {
+      "hand": 448897,
+      "bankroll": -32740.0
+    },
+    {
+      "hand": 450901,
+      "bankroll": -32760.0
+    },
+    {
+      "hand": 452905,
+      "bankroll": -33325.0
+    },
+    {
+      "hand": 454909,
+      "bankroll": -33100.0
+    },
+    {
+      "hand": 456913,
+      "bankroll": -33720.0
+    },
+    {
+      "hand": 458917,
+      "bankroll": -33545.0
+    },
+    {
+      "hand": 460921,
+      "bankroll": -34230.0
+    },
+    {
+      "hand": 462925,
+      "bankroll": -34455.0
+    },
+    {
+      "hand": 464929,
+      "bankroll": -34830.0
+    },
+    {
+      "hand": 466933,
+      "bankroll": -35650.0
+    },
+    {
+      "hand": 468937,
+      "bankroll": -35085.0
+    },
+    {
+      "hand": 470941,
+      "bankroll": -35540.0
+    },
+    {
+      "hand": 472945,
+      "bankroll": -35795.0
+    },
+    {
+      "hand": 474949,
+      "bankroll": -36060.0
+    },
+    {
+      "hand": 476953,
+      "bankroll": -35970.0
+    },
+    {
+      "hand": 478957,
+      "bankroll": -36745.0
+    },
+    {
+      "hand": 480961,
+      "bankroll": -36395.0
+    },
+    {
+      "hand": 482965,
+      "bankroll": -36090.0
+    },
+    {
+      "hand": 484969,
+      "bankroll": -35805.0
+    },
+    {
+      "hand": 486973,
+      "bankroll": -36200.0
+    },
+    {
+      "hand": 488977,
+      "bankroll": -36725.0
+    },
+    {
+      "hand": 490981,
+      "bankroll": -36825.0
+    },
+    {
+      "hand": 492985,
+      "bankroll": -37290.0
+    },
+    {
+      "hand": 494989,
+      "bankroll": -37370.0
+    },
+    {
+      "hand": 496993,
+      "bankroll": -37615.0
+    },
+    {
+      "hand": 498997,
+      "bankroll": -37365.0
+    },
+    {
+      "hand": 501001,
+      "bankroll": -37655.0
+    },
+    {
+      "hand": 503005,
+      "bankroll": -38970.0
+    },
+    {
+      "hand": 505009,
+      "bankroll": -39035.0
+    },
+    {
+      "hand": 507013,
+      "bankroll": -40155.0
+    },
+    {
+      "hand": 509017,
+      "bankroll": -41570.0
+    },
+    {
+      "hand": 511021,
+      "bankroll": -41800.0
+    },
+    {
+      "hand": 513025,
+      "bankroll": -42425.0
+    },
+    {
+      "hand": 515029,
+      "bankroll": -42810.0
+    },
+    {
+      "hand": 517033,
+      "bankroll": -42405.0
+    },
+    {
+      "hand": 519037,
+      "bankroll": -42980.0
+    },
+    {
+      "hand": 521041,
+      "bankroll": -43210.0
+    },
+    {
+      "hand": 523045,
+      "bankroll": -43420.0
+    },
+    {
+      "hand": 525049,
+      "bankroll": -43065.0
+    },
+    {
+      "hand": 527053,
+      "bankroll": -43925.0
+    },
+    {
+      "hand": 529057,
+      "bankroll": -43630.0
+    },
+    {
+      "hand": 531061,
+      "bankroll": -44375.0
+    },
+    {
+      "hand": 533065,
+      "bankroll": -44950.0
+    },
+    {
+      "hand": 535069,
+      "bankroll": -45350.0
+    },
+    {
+      "hand": 537073,
+      "bankroll": -45190.0
+    },
+    {
+      "hand": 539077,
+      "bankroll": -45170.0
+    },
+    {
+      "hand": 541081,
+      "bankroll": -45040.0
+    },
+    {
+      "hand": 543085,
+      "bankroll": -45520.0
+    },
+    {
+      "hand": 545089,
+      "bankroll": -46220.0
+    },
+    {
+      "hand": 547093,
+      "bankroll": -46510.0
+    },
+    {
+      "hand": 549097,
+      "bankroll": -46685.0
+    },
+    {
+      "hand": 551101,
+      "bankroll": -46340.0
+    },
+    {
+      "hand": 553105,
+      "bankroll": -47700.0
+    },
+    {
+      "hand": 555109,
+      "bankroll": -48070.0
+    },
+    {
+      "hand": 557113,
+      "bankroll": -48625.0
+    },
+    {
+      "hand": 559117,
+      "bankroll": -48620.0
+    },
+    {
+      "hand": 561121,
+      "bankroll": -48365.0
+    },
+    {
+      "hand": 563125,
+      "bankroll": -48105.0
+    },
+    {
+      "hand": 565129,
+      "bankroll": -49220.0
+    },
+    {
+      "hand": 567133,
+      "bankroll": -49625.0
+    },
+    {
+      "hand": 569137,
+      "bankroll": -49750.0
+    },
+    {
+      "hand": 571141,
+      "bankroll": -50385.0
+    },
+    {
+      "hand": 573145,
+      "bankroll": -49730.0
+    },
+    {
+      "hand": 575149,
+      "bankroll": -49395.0
+    },
+    {
+      "hand": 577153,
+      "bankroll": -49785.0
+    },
+    {
+      "hand": 579157,
+      "bankroll": -50725.0
+    },
+    {
+      "hand": 581161,
+      "bankroll": -51180.0
+    },
+    {
+      "hand": 583165,
+      "bankroll": -50605.0
+    },
+    {
+      "hand": 585169,
+      "bankroll": -51080.0
+    },
+    {
+      "hand": 587173,
+      "bankroll": -51200.0
+    },
+    {
+      "hand": 589177,
+      "bankroll": -52115.0
+    },
+    {
+      "hand": 591181,
+      "bankroll": -53410.0
+    },
+    {
+      "hand": 593185,
+      "bankroll": -53790.0
+    },
+    {
+      "hand": 595189,
+      "bankroll": -54280.0
+    },
+    {
+      "hand": 597193,
+      "bankroll": -55015.0
+    },
+    {
+      "hand": 599197,
+      "bankroll": -54845.0
+    },
+    {
+      "hand": 601201,
+      "bankroll": -53990.0
+    },
+    {
+      "hand": 603205,
+      "bankroll": -53550.0
+    },
+    {
+      "hand": 605209,
+      "bankroll": -54170.0
+    },
+    {
+      "hand": 607213,
+      "bankroll": -55005.0
+    },
+    {
+      "hand": 609217,
+      "bankroll": -56385.0
+    },
+    {
+      "hand": 611221,
+      "bankroll": -57005.0
+    },
+    {
+      "hand": 613225,
+      "bankroll": -57530.0
+    },
+    {
+      "hand": 615229,
+      "bankroll": -57995.0
+    },
+    {
+      "hand": 617233,
+      "bankroll": -58375.0
+    },
+    {
+      "hand": 619237,
+      "bankroll": -59035.0
+    },
+    {
+      "hand": 621241,
+      "bankroll": -60285.0
+    },
+    {
+      "hand": 623245,
+      "bankroll": -60105.0
+    },
+    {
+      "hand": 625249,
+      "bankroll": -59980.0
+    },
+    {
+      "hand": 627253,
+      "bankroll": -60345.0
+    },
+    {
+      "hand": 629257,
+      "bankroll": -60690.0
+    },
+    {
+      "hand": 631261,
+      "bankroll": -60555.0
+    },
+    {
+      "hand": 633265,
+      "bankroll": -60830.0
+    },
+    {
+      "hand": 635269,
+      "bankroll": -60910.0
+    },
+    {
+      "hand": 637273,
+      "bankroll": -60410.0
+    },
+    {
+      "hand": 639277,
+      "bankroll": -60615.0
+    },
+    {
+      "hand": 641281,
+      "bankroll": -61335.0
+    },
+    {
+      "hand": 643285,
+      "bankroll": -61600.0
+    },
+    {
+      "hand": 645289,
+      "bankroll": -61695.0
+    },
+    {
+      "hand": 647293,
+      "bankroll": -61465.0
+    },
+    {
+      "hand": 649297,
+      "bankroll": -62125.0
+    },
+    {
+      "hand": 651301,
+      "bankroll": -62610.0
+    },
+    {
+      "hand": 653305,
+      "bankroll": -63255.0
+    },
+    {
+      "hand": 655309,
+      "bankroll": -64350.0
+    },
+    {
+      "hand": 657313,
+      "bankroll": -65645.0
+    },
+    {
+      "hand": 659317,
+      "bankroll": -65075.0
+    },
+    {
+      "hand": 661321,
+      "bankroll": -65245.0
+    },
+    {
+      "hand": 663325,
+      "bankroll": -65100.0
+    },
+    {
+      "hand": 665329,
+      "bankroll": -64660.0
+    },
+    {
+      "hand": 667334,
+      "bankroll": -64510.0
+    },
+    {
+      "hand": 669338,
+      "bankroll": -65060.0
+    },
+    {
+      "hand": 671342,
+      "bankroll": -65370.0
+    },
+    {
+      "hand": 673346,
+      "bankroll": -65480.0
+    },
+    {
+      "hand": 675350,
+      "bankroll": -66575.0
+    },
+    {
+      "hand": 677354,
+      "bankroll": -66070.0
+    },
+    {
+      "hand": 679358,
+      "bankroll": -66385.0
+    },
+    {
+      "hand": 681362,
+      "bankroll": -67230.0
+    },
+    {
+      "hand": 683366,
+      "bankroll": -66745.0
+    },
+    {
+      "hand": 685370,
+      "bankroll": -66670.0
+    },
+    {
+      "hand": 687374,
+      "bankroll": -66660.0
+    },
+    {
+      "hand": 689378,
+      "bankroll": -66185.0
+    },
+    {
+      "hand": 691382,
+      "bankroll": -65945.0
+    },
+    {
+      "hand": 693386,
+      "bankroll": -65880.0
+    },
+    {
+      "hand": 695390,
+      "bankroll": -66995.0
+    },
+    {
+      "hand": 697394,
+      "bankroll": -66915.0
+    },
+    {
+      "hand": 699398,
+      "bankroll": -67660.0
+    },
+    {
+      "hand": 701402,
+      "bankroll": -68200.0
+    },
+    {
+      "hand": 703406,
+      "bankroll": -68220.0
+    },
+    {
+      "hand": 705410,
+      "bankroll": -68280.0
+    },
+    {
+      "hand": 707414,
+      "bankroll": -69365.0
+    },
+    {
+      "hand": 709418,
+      "bankroll": -69220.0
+    },
+    {
+      "hand": 711422,
+      "bankroll": -69505.0
+    },
+    {
+      "hand": 713426,
+      "bankroll": -69625.0
+    },
+    {
+      "hand": 715430,
+      "bankroll": -69720.0
+    },
+    {
+      "hand": 717434,
+      "bankroll": -70910.0
+    },
+    {
+      "hand": 719438,
+      "bankroll": -71960.0
+    },
+    {
+      "hand": 721442,
+      "bankroll": -72790.0
+    },
+    {
+      "hand": 723446,
+      "bankroll": -73120.0
+    },
+    {
+      "hand": 725450,
+      "bankroll": -73480.0
+    },
+    {
+      "hand": 727454,
+      "bankroll": -73205.0
+    },
+    {
+      "hand": 729458,
+      "bankroll": -73260.0
+    },
+    {
+      "hand": 731462,
+      "bankroll": -73295.0
+    },
+    {
+      "hand": 733466,
+      "bankroll": -74415.0
+    },
+    {
+      "hand": 735470,
+      "bankroll": -74600.0
+    },
+    {
+      "hand": 737474,
+      "bankroll": -75160.0
+    },
+    {
+      "hand": 739478,
+      "bankroll": -74945.0
+    },
+    {
+      "hand": 741482,
+      "bankroll": -75260.0
+    },
+    {
+      "hand": 743486,
+      "bankroll": -75025.0
+    },
+    {
+      "hand": 745490,
+      "bankroll": -74850.0
+    },
+    {
+      "hand": 747494,
+      "bankroll": -75120.0
+    },
+    {
+      "hand": 749498,
+      "bankroll": -75340.0
+    },
+    {
+      "hand": 751502,
+      "bankroll": -76285.0
+    },
+    {
+      "hand": 753506,
+      "bankroll": -76715.0
+    },
+    {
+      "hand": 755510,
+      "bankroll": -76670.0
+    },
+    {
+      "hand": 757514,
+      "bankroll": -76425.0
+    },
+    {
+      "hand": 759518,
+      "bankroll": -76400.0
+    },
+    {
+      "hand": 761522,
+      "bankroll": -76770.0
+    },
+    {
+      "hand": 763526,
+      "bankroll": -76695.0
+    },
+    {
+      "hand": 765530,
+      "bankroll": -77010.0
+    },
+    {
+      "hand": 767534,
+      "bankroll": -76980.0
+    },
+    {
+      "hand": 769538,
+      "bankroll": -76535.0
+    },
+    {
+      "hand": 771542,
+      "bankroll": -76710.0
+    },
+    {
+      "hand": 773546,
+      "bankroll": -76570.0
+    },
+    {
+      "hand": 775550,
+      "bankroll": -76795.0
+    },
+    {
+      "hand": 777554,
+      "bankroll": -76610.0
+    },
+    {
+      "hand": 779558,
+      "bankroll": -76215.0
+    },
+    {
+      "hand": 781562,
+      "bankroll": -76145.0
+    },
+    {
+      "hand": 783566,
+      "bankroll": -75880.0
+    },
+    {
+      "hand": 785570,
+      "bankroll": -76140.0
+    },
+    {
+      "hand": 787574,
+      "bankroll": -76655.0
+    },
+    {
+      "hand": 789578,
+      "bankroll": -77625.0
+    },
+    {
+      "hand": 791582,
+      "bankroll": -78020.0
+    },
+    {
+      "hand": 793586,
+      "bankroll": -78060.0
+    },
+    {
+      "hand": 795590,
+      "bankroll": -78905.0
+    },
+    {
+      "hand": 797594,
+      "bankroll": -79210.0
+    },
+    {
+      "hand": 799598,
+      "bankroll": -79985.0
+    },
+    {
+      "hand": 801602,
+      "bankroll": -80645.0
+    },
+    {
+      "hand": 803606,
+      "bankroll": -81170.0
+    },
+    {
+      "hand": 805610,
+      "bankroll": -81105.0
+    },
+    {
+      "hand": 807614,
+      "bankroll": -80400.0
+    },
+    {
+      "hand": 809618,
+      "bankroll": -80985.0
+    },
+    {
+      "hand": 811622,
+      "bankroll": -81605.0
+    },
+    {
+      "hand": 813626,
+      "bankroll": -81585.0
+    },
+    {
+      "hand": 815630,
+      "bankroll": -81725.0
+    },
+    {
+      "hand": 817634,
+      "bankroll": -81895.0
+    },
+    {
+      "hand": 819638,
+      "bankroll": -81565.0
+    },
+    {
+      "hand": 821642,
+      "bankroll": -82735.0
+    },
+    {
+      "hand": 823646,
+      "bankroll": -83120.0
+    },
+    {
+      "hand": 825650,
+      "bankroll": -82200.0
+    },
+    {
+      "hand": 827654,
+      "bankroll": -82690.0
+    },
+    {
+      "hand": 829658,
+      "bankroll": -82840.0
+    },
+    {
+      "hand": 831662,
+      "bankroll": -83420.0
+    },
+    {
+      "hand": 833666,
+      "bankroll": -83630.0
+    },
+    {
+      "hand": 835670,
+      "bankroll": -83540.0
+    },
+    {
+      "hand": 837674,
+      "bankroll": -83865.0
+    },
+    {
+      "hand": 839678,
+      "bankroll": -83570.0
+    },
+    {
+      "hand": 841682,
+      "bankroll": -82795.0
+    },
+    {
+      "hand": 843686,
+      "bankroll": -83295.0
+    },
+    {
+      "hand": 845690,
+      "bankroll": -83375.0
+    },
+    {
+      "hand": 847694,
+      "bankroll": -83545.0
+    },
+    {
+      "hand": 849698,
+      "bankroll": -84185.0
+    },
+    {
+      "hand": 851702,
+      "bankroll": -84435.0
+    },
+    {
+      "hand": 853706,
+      "bankroll": -85500.0
+    },
+    {
+      "hand": 855710,
+      "bankroll": -86265.0
+    },
+    {
+      "hand": 857714,
+      "bankroll": -86625.0
+    },
+    {
+      "hand": 859718,
+      "bankroll": -85845.0
+    },
+    {
+      "hand": 861722,
+      "bankroll": -85970.0
+    },
+    {
+      "hand": 863726,
+      "bankroll": -86485.0
+    },
+    {
+      "hand": 865730,
+      "bankroll": -86940.0
+    },
+    {
+      "hand": 867734,
+      "bankroll": -87620.0
+    },
+    {
+      "hand": 869738,
+      "bankroll": -86995.0
+    },
+    {
+      "hand": 871742,
+      "bankroll": -87560.0
+    },
+    {
+      "hand": 873746,
+      "bankroll": -87170.0
+    },
+    {
+      "hand": 875750,
+      "bankroll": -87410.0
+    },
+    {
+      "hand": 877754,
+      "bankroll": -87780.0
+    },
+    {
+      "hand": 879758,
+      "bankroll": -87330.0
+    },
+    {
+      "hand": 881762,
+      "bankroll": -87765.0
+    },
+    {
+      "hand": 883766,
+      "bankroll": -87540.0
+    },
+    {
+      "hand": 885770,
+      "bankroll": -87945.0
+    },
+    {
+      "hand": 887774,
+      "bankroll": -88170.0
+    },
+    {
+      "hand": 889778,
+      "bankroll": -89135.0
+    },
+    {
+      "hand": 891782,
+      "bankroll": -89575.0
+    },
+    {
+      "hand": 893786,
+      "bankroll": -89515.0
+    },
+    {
+      "hand": 895790,
+      "bankroll": -89580.0
+    },
+    {
+      "hand": 897794,
+      "bankroll": -90350.0
+    },
+    {
+      "hand": 899798,
+      "bankroll": -90555.0
+    },
+    {
+      "hand": 901802,
+      "bankroll": -91880.0
+    },
+    {
+      "hand": 903806,
+      "bankroll": -92225.0
+    },
+    {
+      "hand": 905810,
+      "bankroll": -92225.0
+    },
+    {
+      "hand": 907814,
+      "bankroll": -92860.0
+    },
+    {
+      "hand": 909818,
+      "bankroll": -92720.0
+    },
+    {
+      "hand": 911822,
+      "bankroll": -93435.0
+    },
+    {
+      "hand": 913826,
+      "bankroll": -93325.0
+    },
+    {
+      "hand": 915830,
+      "bankroll": -93920.0
+    },
+    {
+      "hand": 917834,
+      "bankroll": -93620.0
+    },
+    {
+      "hand": 919838,
+      "bankroll": -94370.0
+    },
+    {
+      "hand": 921842,
+      "bankroll": -93995.0
+    },
+    {
+      "hand": 923846,
+      "bankroll": -94155.0
+    },
+    {
+      "hand": 925850,
+      "bankroll": -94300.0
+    },
+    {
+      "hand": 927854,
+      "bankroll": -94630.0
+    },
+    {
+      "hand": 929858,
+      "bankroll": -94885.0
+    },
+    {
+      "hand": 931862,
+      "bankroll": -95845.0
+    },
+    {
+      "hand": 933866,
+      "bankroll": -95335.0
+    },
+    {
+      "hand": 935870,
+      "bankroll": -95500.0
+    },
+    {
+      "hand": 937874,
+      "bankroll": -95615.0
+    },
+    {
+      "hand": 939878,
+      "bankroll": -96140.0
+    },
+    {
+      "hand": 941882,
+      "bankroll": -95940.0
+    },
+    {
+      "hand": 943886,
+      "bankroll": -96220.0
+    },
+    {
+      "hand": 945890,
+      "bankroll": -95990.0
+    },
+    {
+      "hand": 947894,
+      "bankroll": -95545.0
+    },
+    {
+      "hand": 949898,
+      "bankroll": -95695.0
+    },
+    {
+      "hand": 951902,
+      "bankroll": -95300.0
+    },
+    {
+      "hand": 953906,
+      "bankroll": -95880.0
+    },
+    {
+      "hand": 955910,
+      "bankroll": -95640.0
+    },
+    {
+      "hand": 957914,
+      "bankroll": -97085.0
+    },
+    {
+      "hand": 959918,
+      "bankroll": -97950.0
+    },
+    {
+      "hand": 961922,
+      "bankroll": -98400.0
+    },
+    {
+      "hand": 963926,
+      "bankroll": -97940.0
+    },
+    {
+      "hand": 965930,
+      "bankroll": -97770.0
+    },
+    {
+      "hand": 967934,
+      "bankroll": -98730.0
+    },
+    {
+      "hand": 969938,
+      "bankroll": -98915.0
+    },
+    {
+      "hand": 971942,
+      "bankroll": -99575.0
+    },
+    {
+      "hand": 973946,
+      "bankroll": -99440.0
+    },
+    {
+      "hand": 975950,
+      "bankroll": -100260.0
+    },
+    {
+      "hand": 977954,
+      "bankroll": -99610.0
+    },
+    {
+      "hand": 979958,
+      "bankroll": -99610.0
+    },
+    {
+      "hand": 981962,
+      "bankroll": -100120.0
+    },
+    {
+      "hand": 983966,
+      "bankroll": -100140.0
+    },
+    {
+      "hand": 985970,
+      "bankroll": -99565.0
+    },
+    {
+      "hand": 987974,
+      "bankroll": -100480.0
+    },
+    {
+      "hand": 989978,
+      "bankroll": -101025.0
+    },
+    {
+      "hand": 991982,
+      "bankroll": -101555.0
+    },
+    {
+      "hand": 993986,
+      "bankroll": -101620.0
+    },
+    {
+      "hand": 995990,
+      "bankroll": -101595.0
+    },
+    {
+      "hand": 997994,
+      "bankroll": -101870.0
+    },
+    {
+      "hand": 999999,
+      "bankroll": -102350.0
+    }
+  ]
+}
